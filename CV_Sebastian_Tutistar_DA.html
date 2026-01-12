@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Sebastian Tutistar Valencia</title>
+    <style>
+        @page {
+            margin: 1.5cm;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 11pt;
+            line-height: 1.4;
+            color: #000;
+            background: #fff;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+        }
+        
+        header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 12pt;
+            margin-bottom: 18pt;
+        }
+        
+        h1 {
+            font-size: 20pt;
+            font-weight: bold;
+            letter-spacing: 1px;
+            margin-bottom: 8pt;
+        }
+        
+        header p {
+            font-size: 10pt;
+            margin: 3pt 0;
+        }
+        
+        h2 {
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #000;
+            margin-top: 16pt;
+            margin-bottom: 10pt;
+            padding-bottom: 4pt;
+        }
+        
+        h3 {
+            font-size: 11pt;
+            font-weight: bold;
+            margin-bottom: 2pt;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 2pt;
+        }
+        
+        .job-date {
+            font-style: italic;
+            font-size: 10pt;
+        }
+        
+        .job-company {
+            font-style: italic;
+            font-size: 10pt;
+            margin-bottom: 6pt;
+        }
+        
+        .experience-item {
+            margin-bottom: 14pt;
+        }
+        
+        ul {
+            margin-left: 25pt;
+            margin-top: 4pt;
+        }
+        
+        li {
+            margin-bottom: 4pt;
+            text-align: justify;
+        }
+        
+        .education-item {
+            margin-bottom: 10pt;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+        }
+        
+        .education-location {
+            font-size: 10pt;
+        }
+        
+        .skills-section p {
+            margin-bottom: 8pt;
+        }
+        
+        .cert-item {
+            margin-bottom: 8pt;
+        }
+        
+        .cert-url {
+            font-style: italic;
+            font-size: 9pt;
+            display: block;
+            margin-top: 2pt;
+        }
+        
+        footer {
+            text-align: center;
+            font-style: italic;
+            font-size: 9pt;
+            margin-top: 20pt;
+            padding-top: 10pt;
+            border-top: 1px solid #000;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+                max-width: 100%;
+            }
+            
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SEBASTIAN TUTISTAR VALENCIA</h1>
+        <p>Cali, Valle del Cauca, Colombia | C.C: 1.144.203.347</p>
+        <p>+57 312 229 2772 | sebastian.tutistar@correounivalle.edu.co</p>
+        <p>LinkedIn: linkedin.com/in/s... | GitHub: github.com/sebastiantu...</p>
+    </header>
+
+    <section>
+        <h2>PERFIL PROFESIONAL</h2>
+        <p style="text-align: justify;">
+            Data Analyst con más de 5 años de experiencia optimizando procesos financieros y operativos en sectores de salud, 
+            público y cultural. Especializado en automatización de pipelines de datos, desarrollo de soluciones en Power BI y Python, 
+            y transformación digital mediante análisis avanzado. Experiencia comprobada reduciendo tiempos operativos hasta en 90% y 
+            desarrollando modelos analíticos que impulsan decisiones estratégicas basadas en datos en organizaciones como Johnson & Johnson.
+        </p>
+    </section>
+
+    <section>
+        <h2>EXPERIENCIA PROFESIONAL</h2>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <h3>ESPECIALISTA EN AUTOMATIZACIÓN DE PROCESOS</h3>
+                <span class="job-date">Mayo 2025 - Noviembre 2025</span>
+            </div>
+            <p class="job-company">Johnson & Johnson, Cali, Colombia</p>
+            <ul>
+                <li>Diseñé pipelines automatizados en Power Query, PySpark y Databricks integrando datos de SAP, SharePoint y OneDrive, 
+                aplicando transformaciones y controles de calidad para consolidar el BME en dashboards ejecutivos de Power BI utilizados 
+                por la alta dirección regional.</li>
+                <li>Desarrollé modelos P&L en Power BI y SQL para normalizar datos financieros entre múltiples países, soportando análisis 
+                comparativos y reportes de alta dirección que impactaron decisiones de inversión regional.</li>
+                <li>Optimicé macros financieras reduciendo tiempos de ejecución en 90% mediante refactorización y algoritmos de optimización 
+                (Newton-Raphson, Bisección), consolidando procesos de planeación financiera (FBP) y liberando 20+ horas semanales del equipo.</li>
+                <li>Implementé RPA desatendida con PowerAutomate, optimizando tiempos operativos en un 60% y eliminando errores manuales en 
+                procesos críticos de reporting financiero.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <h3>DATA ANALYST - TI</h3>
+                <span class="job-date">Mayo 2024 - Diciembre 2025</span>
+            </div>
+            <p class="job-company">Instituto Colombiano de Ballet Clásico Incolballet, Cali, Colombia</p>
+            <ul>
+                <li>Gestioné el portal web institucional asegurando cumplimiento de la Ley de Transparencia 1712, manteniendo actualización 
+                permanente de información pública y reduciendo tiempos de consulta ciudadana.</li>
+                <li>Diseñé y mantuve procesos de consolidación y normalización de datos de 8 áreas diferentes, garantizando consistencia, 
+                trazabilidad y calidad en la información reportada, reduciendo errores de reporte en 75%.</li>
+                <li>Desarrollé modelos analíticos en Python para análisis de tendencias, estimaciones presupuestarias y generación de insights 
+                que soportaron 15+ decisiones estratégicas institucionales documentadas.</li>
+                <li>Construí dashboards interactivos en Power BI y Tableau para seguimiento de 25+ KPI operativos y financieros, facilitando 
+                análisis ejecutivo en tiempo real y mejorando velocidad de toma de decisiones.</li>
+                <li>Definí y estandaricé KPI institucionales alineados con objetivos estratégicos del plan de desarrollo, asegurando 
+                consistencia en medición y análisis de desempeño organizacional.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <h3>ESPECIALISTA EN SEGUIMIENTO Y MONITOREO</h3>
+                <span class="job-date">Junio 2020 - Julio 2024</span>
+            </div>
+            <p class="job-company">Corporación Departamental de Recreación Recreavalle, Cali, Colombia</p>
+            <ul>
+                <li>Consolidé y procesé grandes volúmenes de datos (500,000+ registros) mediante técnicas de indexación y estructuración 
+                optimizada, mejorando tiempos de búsqueda en 70% para información territorial de 42 municipios, comunas y corregimientos.</li>
+                <li>Construí dashboards interactivos con Excel, Power BI y RStudio para seguimiento de 30+ KPI del proyecto, elaborando 
+                informes cuantitativos y cualitativos mensuales que soportaron decisiones de asignación presupuestal.</li>
+                <li>Desarrollé estructuras algorítmicas en Python para automatizar tareas repetitivas de limpieza y transformación de datos, 
+                reduciendo tiempo de procesamiento mensual de 40 a 8 horas.</li>
+                <li>Creé mapas interactivos con Python (Folium) y Tableau para análisis territorial del proyecto, visualizando distribución 
+                de 50,000+ beneficiarios, 200+ actividades culturales y otros indicadores clave de impacto social.</li>
+            </ul>
+        </div>
+
+        <div class="experience-item">
+            <div class="job-header">
+                <h3>APOYO TÉCNICO INTERVENTORÍA FINANCIERA Y CONTABLE</h3>
+                <span class="job-date">Noviembre 2018 - Diciembre 2019</span>
+            </div>
+            <p class="job-company">Fondo Mixto de Promoción y las Artes del Valle del Cauca, Cali, Colombia</p>
+            <ul>
+                <li>Supervisé información financiera y contractual del convenio Feria de Cali (presupuesto $15,000M COP), validando 300+ 
+                facturas, cuentas de cobro y comprobantes para asegurar cumplimiento de acuerdos establecidos.</li>
+                <li>Consolidé observaciones y preparé 12 informes parciales y 1 informe final del convenio, verificando ejecución de 
+                recursos (98% de ejecución presupuestal) y amortización de anticipos conforme a normativa vigente.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h2>EDUCACIÓN</h2>
+        
+        <div class="education-item">
+            <div class="education-header">
+                <h3>ESPECIALIZACIÓN EN ESTADÍSTICA APLICADA</h3>
+                <span class="job-date">Julio 2025 - En curso</span>
+            </div>
+            <p class="education-location">Universidad del Valle, Cali, Colombia</p>
+        </div>
+
+        <div class="education-item">
+            <div class="education-header">
+                <h3>INGENIERÍA DE SISTEMAS</h3>
+                <span class="job-date">Agosto 2021 - Marzo 2024</span>
+            </div>
+            <p class="education-location">Universidad del Valle, Cali, Colombia</p>
+        </div>
+
+        <div class="education-item">
+            <div class="education-header">
+                <h3>TECNOLOGÍA EN SISTEMAS DE INFORMACIÓN</h3>
+                <span class="job-date">Marzo 2015 - Noviembre 2019</span>
+            </div>
+            <p class="education-location">Universidad del Valle, Cali, Colombia</p>
+        </div>
+    </section>
+
+    <section class="skills-section">
+        <h2>HABILIDADES TÉCNICAS</h2>
+        <p><strong>Programación y Bases de Datos:</strong> Python, SQL, R, PySpark</p>
+        <p><strong>Business Intelligence y Visualización:</strong> Power BI, Tableau, Looker Studio, Excel Avanzado</p>
+        <p><strong>Herramientas y Plataformas:</strong> Databricks, Power Query, PowerAutomate, Power Automate Desktop</p>
+        <p><strong>Análisis de Datos:</strong> Análisis estadístico, modelado predictivo, ETL, data cleaning, data warehousing</p>
+    </section>
+
+    <section>
+        <h2>CERTIFICACIONES Y FORMACIÓN COMPLEMENTARIA</h2>
+        
+        <div class="cert-item">
+            <strong>Google Data Analytics Professional Certificate</strong>, Google, Enero 2025
+            <span class="cert-url">coursera.org/account/accomplishments/professional-cert/BURWHZGG54NM</span>
+        </div>
+        
+        <div class="cert-item">
+            <strong>Bootcamp de SQL y Modelado Profesional</strong>, Código Facilito, Enero - Junio 2025
+        </div>
+        
+        <div class="cert-item">
+            <strong>Diplomado en Inteligencia de Negocios e Inteligencia Artificial</strong>, Universidad Autónoma de Occidente, Diciembre 2024 - En curso
+        </div>
+        
+        <div class="cert-item">
+            <strong>Learn Data Storytelling: Power BI Techniques</strong>, edureka!, Enero 2025
+            <span class="cert-url">coursera.org/account/accomplishments/certificate/Q1HNWU00P7AF</span>
+        </div>
+    </section>
+
+    <section>
+        <h2>IDIOMAS</h2>
+        <p>Español (Nativo), Inglés (Intermedio - Lectura técnica)</p>
+    </section>
+
+    <footer>
+        <p>Referencias profesionales disponibles a solicitud</p>
+    </footer>
+</body>
+</html>
